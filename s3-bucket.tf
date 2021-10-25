@@ -3,3 +3,5 @@ module "s3-bucket" {
   version = "2.9.0"
   # insert the 5 required variables here
   bucket_prefix = "prefix"
+  policy = ""
+}
